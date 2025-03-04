@@ -25,9 +25,9 @@ From Source
 ```bash
 git clone https://github.com/jhideki/pywal-spicetify
 cd pywal-spicetify
+RUSTFLAGS="-Awarnings" cargo build
 cargo build --release
-cp target/release/bin/pywal-spicetify <wherever you want to save the progra>
-export PATH=$PATH:<where you saved pywal-spicetify>
+cp target/release/pywal-spicetify /usr/local/bin
 ```
 ## Usage
 ```bash
